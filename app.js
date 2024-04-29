@@ -5,7 +5,7 @@ const ejs = require("ejs")
 app.set("view engine", "ejs")
 
 app.get("/", (req, res)=>{
-  res.send("yeyya")
+  res.render("index")
 })
 
 app.listen(3200, (req, res)=>{
